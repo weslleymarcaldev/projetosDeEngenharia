@@ -19,20 +19,34 @@ Configuração do Jest para testes unitários no frontend e backend.
 Repositório Git configurado e disponível no GitHub.
 
 <h2>Estrutura</h2>
+
 crud-engenharia/
 │
 ├── backend/                 # Backend (Node.js com API REST)
-│   ├── index.js             # Entrada principal do backend
+│   ├── server.js            # Entrada principal do backend
 │   ├── routes/              # Rotas da API
-│   │   └── projectRoutes.js # Rotas para o CRUD de projetos
+│   │   └── project.js       # Rotas para o CRUD de projetos
 │   ├── controllers/         # Controladores para lógica de negócios
-│   │   └── projectController.js
+│   │   └── project.js
 │   ├── models/              # Modelo de dados para os projetos
-│   │   └── projectModel.js
+│   │   └── project.js
+|   |── tests/
+|   |   └── projects.test.js
 │   └── package.json         # Dependências do backend
 │
+/frontend
+   |-- public/
+   |-- src/
+        |-- assets/
+             |-- styles.scss
+        |-- components/
+             |-- ProjectList.vue
+             |-- ProjectForm.vue
+        |-- App.vue
+        |-- main.js
+
 ├── frontend/                # Frontend (VueJS + Bootstrap)
-│   ├── index.html           # Arquivo HTML principal
+│   ├── public/
 │   ├── src/                 # Fonte do Vue.js
 │   │   ├── components/      # Componentes VueJS
 │   │   │   ├── ProjectList.vue
@@ -40,8 +54,9 @@ crud-engenharia/
 │   │   │   └── EditProject.vue
 │   │   ├── App.vue          # Componente raiz
 │   │   └── main.js          # Arquivo principal do VueJS
-│   ├── styles/              # Estilos SASS/SCSS
-│   │   └── main.scss
+|   |── assets/
+│   |   └── styles/              # Estilos SASS/SCSS
+│   │       └── main.scss
 │   └── package.json         # Dependências do frontend
 │
 ├── tests/                   # Testes unitários com Jest
@@ -51,4 +66,4 @@ crud-engenharia/
 │
 ├── .gitignore               # Arquivos ignorados pelo Git
 ├── README.md                # Documentação do projeto
-└── LICENSE                  # Licença do projeto
+└── LICENSE                  # Licença do projeto# projetosDeEngenharia
