@@ -18,7 +18,7 @@ Configuração do Jest para testes unitários no frontend e backend.
 5 - Controle de Versão:
 Repositório Git configurado e disponível no GitHub.
 
-<h2>Estrutura</h2>
+<!-- <h2>Estrutura</h2>
 
 crud-engenharia/
 │
@@ -66,4 +66,4 @@ crud-engenharia/
 │
 ├── .gitignore               # Arquivos ignorados pelo Git
 ├── README.md                # Documentação do projeto
-└── LICENSE                  # Licença do projeto# projetosDeEngenharia
+└── LICENSE                  # Licença do projeto# projetosDeEngenharia -->
