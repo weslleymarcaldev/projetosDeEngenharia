@@ -10,5 +10,5 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/api/projects', projectRoutes);
 
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Servidor em execução em http://localhost:${PORT}`));
 

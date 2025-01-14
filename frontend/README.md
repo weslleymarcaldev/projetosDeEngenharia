@@ -24,7 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-/frontend
+<!-- /frontend
    |-- public/
    |-- src/
         |-- assets/
@@ -33,4 +33,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
              |-- ProjectList.vue
              |-- ProjectForm.vue
         |-- App.vue
-        |-- main.js
+        |-- main.js -->
