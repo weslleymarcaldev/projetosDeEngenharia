@@ -19,9 +19,7 @@
                 </div>
             </li>
         </ul>
-        <button class="btn btn-primary mt-3" @click="loadProjects">
-            Recarregar Projetos
-        </button>
+        <button class="btn btn-primary mt-3" @click="loadProjects">Recarregar Projetos</button>
     </div>
 </template>
 
