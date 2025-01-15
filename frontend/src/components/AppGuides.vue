@@ -7,25 +7,25 @@ export default {
   data() {
     return {
       resources: [
-        { 
+        {
           url: 'https://getbootstrap.com/docs/5.3/getting-started/introduction/',
-          title: 'Bootstrap quick start guide'
+          title: 'Guia de início rápido do Bootstrap'
         },
-        { 
+        {
           url: 'https://getbootstrap.com/docs/5.3/getting-started/webpack/',
-          title: 'Bootstrap Webpack guide'
+          title: 'Guia do Bootstrap Webpack'
         },
-        { 
+        {
           url: 'https://getbootstrap.com/docs/5.3/getting-started/parcel/',
-          title: 'Bootstrap Parcel guide'
+          title: 'Guia do Bootstrap Parcel'
         },
-        { 
+        {
           url: 'https://getbootstrap.com/docs/5.3/getting-started/vite/',
-          title: 'Bootstrap Vite guide'
+          title: 'Guia do Bootstrap Vite'
         },
-        { 
+        {
           url: 'https://getbootstrap.com/docs/5.3/getting-started/contribute/',
-          title: 'Contributing to Bootstrap'
+          title: 'Contribuindo para o Bootstrap'
         },
       ]
     }
@@ -34,16 +34,11 @@ export default {
 </script>
 
 <template>
-  <h2>Guides</h2>
-  <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-
+  <h2>Guias</h2>
+  <p>Leia instruções e documentação mais detalhadas sobre como usar ou contribuir para o Bootstrap.</p>
   <ul class="ps-0 list-style-none">
-    <!-- TODO fix later -->
+    <!-- TODO consertar mais tarde -->
     <!-- eslint-disable-next-line vue/valid-v-for -->
-    <GuideItem
-      v-for="item in resources"
-      :href="item.url"
-      :text="item.title"
-    />
+    <GuideItem v-for="item in resources" :href="item.url" :text="item.title" />
   </ul>
 </template>
